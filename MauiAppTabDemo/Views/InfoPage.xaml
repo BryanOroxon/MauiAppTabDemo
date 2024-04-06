@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiAppTabDemo.Views.InfoPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="InfoPage"
+    BackgroundColor="#ec49d7">
+    <VerticalStackLayout VerticalOptions="Center">
+        <Image Source="dotnetconfhero.png" />
+        <Label
+            HorizontalOptions="Center"
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
